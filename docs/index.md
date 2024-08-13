@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: References
-      link: /project/references
+      link: /project/project-statement
     - theme: alt
       text: Code Examples
       link: /project/code-examples
