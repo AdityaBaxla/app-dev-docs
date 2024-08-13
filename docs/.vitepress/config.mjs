@@ -16,7 +16,10 @@ export default defineConfig({
         text: 'Navigate',
         items: [
           { text: 'Project Statment', link: '/project/project-statement' },
-          { text: 'Code Examples', link: '/project/code-examples' }
+          { text: 'Develoment Setup', link: '/project/development-environment-setup' },
+          { text: 'Code Examples', link: '/project/code-examples' },
+          { text: 'Models', link: '/project/sqlalchemy-models' },
+          { text: 'Flask Security', link: '/project/flask-security' },
         ]
       }
     ],
