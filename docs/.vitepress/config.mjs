@@ -2,24 +2,28 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "App Dev Docs",
-  description: "All content for App Dev I & II",
+  title: 'Application Development',
+  description: 'Documentation for AppDev Projects and Theory',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Code', link: '/project/code-examples' }
+      { text: 'Appdev I', link: '/Appdev_I/Project/' },
+      { text: 'Appdev II', link: '/Appdev_II/Project/' }
     ],
 
     sidebar: [
       {
-        text: 'Navigate',
+        text: 'Appdev I',
         items: [
-          { text: 'Project Statment', link: '/project/project-statement' },
-          { text: 'Develoment Setup', link: '/project/development-environment-setup' },
-          { text: 'Code Examples', link: '/project/code-examples' },
-          { text: 'Models', link: '/project/sqlalchemy-models' },
-          { text: 'Flask Security', link: '/project/flask-security' },
+          { text: 'Project', link: '/Appdev_I/Project/' },
+          { text: 'Theory', link: '/Appdev_I/Theory/' }
+        ]
+      },
+      {
+        text: 'Appdev II',
+        items: [
+          { text: 'Project', link: '/Appdev_II/Project/' },
+          { text: 'Theory', link: '/Appdev_II/Theory/' }
         ]
       }
     ],
@@ -27,5 +31,13 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/AdityaBaxla/app-dev-docs' }
     ]
+  },
+  markdown: {
+    // If you want auto-sidebar generation for deeply nested structures,
+    // use this setting:
+    sidebar: {
+      '/Appdev_I/': 'auto',
+      '/Appdev_II/': 'auto',
+    }
   }
 })
