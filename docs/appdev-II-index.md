@@ -8,7 +8,7 @@ Appdev II delves deeper into the world of web application development, focusing 
 
 ## Sections
 
-### [Theory](./theory/index.md)
+### [Theory](./appdev-II-theory/index.md)
 
 In the Theory section, you will explore advanced topics in web application development. These topics are crucial for building secure, efficient, and scalable applications. Subjects covered include:
 
@@ -18,7 +18,7 @@ In the Theory section, you will explore advanced topics in web application devel
 - **Flask RESTful APIs:** Learn how to build and deploy RESTful APIs with Flask, including handling requests, responses, and error management.
 - **Testing and Debugging:** Explore advanced testing techniques to ensure the reliability and robustness of your applications.
 
-### [Project](./project/index.md)
+### [Project](./appdev-II-theory/project.md)
 
 The Project section challenges you to apply your advanced knowledge in a real-world scenario. You'll work on a comprehensive project that requires you to integrate various components of what you've learned. Topics covered include:
 

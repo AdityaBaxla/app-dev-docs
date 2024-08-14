@@ -8,7 +8,7 @@ Appdev I covers the essential skills and concepts required to build robust and s
 
 ## Sections
 
-### [Theory](./theory/index.md)
+### [Theory](./appdev-I-theory/)
 
 In the Theory section, you'll explore the fundamental concepts of application development. Topics covered include:
 
@@ -18,7 +18,7 @@ In the Theory section, you'll explore the fundamental concepts of application de
 - **Flask Security:** Explore how to implement security features such as authentication and authorization in your Flask applications.
 - **Flask SQLAlchemy:** Understand how to interact with databases using SQLAlchemy, an ORM for Python, and how to model your data effectively.
 
-### [Project](./project/index.md)
+### [Project](./appdev-I-project/)
 
 The Project section guides you through the practical application of the concepts learned in the Theory section. You'll work on a real-world project that will challenge you to apply your knowledge and skills. Topics covered include:
 
