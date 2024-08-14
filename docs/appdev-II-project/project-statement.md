@@ -82,7 +82,7 @@ Campaigns may have:
 
 ## Application Wireframe
 
-![IESCP Wireframe](IESCP_wireframe.png)
+![IESCP Wireframe](./images/IESCP_wireframe.png)
 
 > **Note:** The wireframe is provided only to get the flow of the application and what should appear when a specific user navigates from one page to another. It is NOT mandatory to exactly replicate the views given in the wireframe. Students can work on their own frontend idea.
 

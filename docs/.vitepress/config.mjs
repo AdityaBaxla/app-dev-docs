@@ -52,6 +52,11 @@ export default defineConfig({
           text: 'Reference',
           items: [
             { text: 'FAQ\'s', link: '/appdev-II-project/faq' },
+            { text: 'Project Statement', link: '/appdev-II-project/project-statement' },
+            { text: 'Development Environment', link: '/appdev-II-project/development-environment-setup' },
+            { text: 'Flask', link: '/appdev-II-project/code-examples' },
+            { text: 'SQL Alchemy Models', link: '/appdev-II-project/sqlalchemy-models' },
+            { text: 'Flask Security', link: '/appdev-II-project/flask-security' },
             // { text: 'CLI', link: '/reference/cli' },
             // { text: 'API', link: '/reference/api' }
           ]
