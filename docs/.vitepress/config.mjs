@@ -17,9 +17,9 @@ export default defineConfig({
         {
           text: 'Reference',
           items: [
-            { text: 'Introduction', link: '/reference/' },
-            { text: 'CLI', link: '/reference/cli' },
-            { text: 'API', link: '/reference/api' }
+            // { text: 'Introduction', link: '/reference/' },
+            // { text: 'CLI', link: '/reference/cli' },
+            // { text: 'API', link: '/reference/api' }
           ]
         }
       ],
@@ -28,9 +28,9 @@ export default defineConfig({
         {
           text: 'Reference',
           items: [
-            { text: 'Introduction', link: '/guide/' },
-            { text: 'Getting Started', link: '/guide/getting-started' },
-            { text: 'Advanced', link: '/guide/advanced' }
+            // { text: 'Introduction', link: '/guide/' },
+            // { text: 'Getting Started', link: '/guide/getting-started' },
+            // { text: 'Advanced', link: '/guide/advanced' }
           ]
         }
       ],
@@ -40,9 +40,9 @@ export default defineConfig({
         {
           text: 'Reference',
           items: [
-            { text: 'Introduction', link: '/reference/' },
-            { text: 'CLI', link: '/reference/cli' },
-            { text: 'API', link: '/reference/api' }
+            // { text: 'Introduction', link: '/reference/' },
+            // { text: 'CLI', link: '/reference/cli' },
+            // { text: 'API', link: '/reference/api' }
           ]
         }
       ],
@@ -51,9 +51,9 @@ export default defineConfig({
         {
           text: 'Reference',
           items: [
-            { text: 'Introduction', link: '/reference/' },
-            { text: 'CLI', link: '/reference/cli' },
-            { text: 'API', link: '/reference/api' }
+            { text: 'FAQ\'s', link: '/appdev-II-project/faq' },
+            // { text: 'CLI', link: '/reference/cli' },
+            // { text: 'API', link: '/reference/api' }
           ]
         }
       ],

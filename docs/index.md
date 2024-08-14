@@ -18,7 +18,7 @@ hero:
       link: /appdev-II/index
     - theme: alt
       text: AppDev II Project
-      link: /appdev-I-project/index
+      link: /appdev-II-project/index
 
 features:
   - title: Feature A
