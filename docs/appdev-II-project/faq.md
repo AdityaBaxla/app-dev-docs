@@ -1,5 +1,9 @@
 # Frequently Asked Questions
 
+### Table of content
+
+[[toc]]
+
 ## Project Submission Deadlines and Process
 
 ### Q: When are the plagiarism test results released?
