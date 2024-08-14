@@ -5,17 +5,20 @@ layout: home
 hero:
   name: "App Dev Docs"
   text: "Documentation for AppDev Projects and Theory"
-  tagline: My great project tagline
+  # tagline: My great project tagline
   actions:
     - theme: brand
       text: AppDev I
-      link: /project/project-statement
+      link: /appdev-I/index
+    - theme: brand
+      text: AppDev I Project
+      link: /appdev-I-project/index
     - theme: alt
       text: AppDev II
-      link: /project/code-examples
+      link: /appdev-II/index
     - theme: alt
-      text: AppDev Project
-      link: /project/references
+      text: AppDev II Project
+      link: /appdev-I-project/index
 
 features:
   - title: Feature A
