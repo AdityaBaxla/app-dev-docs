@@ -18,7 +18,7 @@ In the Theory section, you will explore advanced topics in web application devel
 - **Flask RESTful APIs:** Learn how to build and deploy RESTful APIs with Flask, including handling requests, responses, and error management.
 - **Testing and Debugging:** Explore advanced testing techniques to ensure the reliability and robustness of your applications.
 
-### [Project](./appdev-II-theory/project.md)
+### [Project](./appdev-II-project/index.md)
 
 The Project section challenges you to apply your advanced knowledge in a real-world scenario. You'll work on a comprehensive project that requires you to integrate various components of what you've learned. Topics covered include:
 
@@ -49,7 +49,7 @@ For further learning, you can explore the following:
 
 ## Getting Started
 
-Ready to elevate your skills? Start with the [Theory](./appdev-II-theory/index.md) section to deepen your understanding of advanced concepts, or dive into the [Project](./project/index.md) section to begin working on your real-world application!
+Ready to elevate your skills? Start with the [Theory](./appdev-II-theory/index.md) section to deepen your understanding of advanced concepts, or dive into the [Project](./appdev-II-project/index.md) section to begin working on your real-world application!
 
 ---
 
