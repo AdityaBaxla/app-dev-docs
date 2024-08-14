@@ -10,6 +10,9 @@ export default defineConfig({
       { text: 'Appdev I', link: '/appdev-I-index' },
       { text: 'Appdev II', link: '/appdev-II-index' }
     ],
+    search: {
+      provider: 'local'
+    },
 
     sidebar: {
       // Sidebar for the "appdevI" section

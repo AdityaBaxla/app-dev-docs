@@ -4,125 +4,155 @@
 
 [[toc]]
 
-## Project Submission Deadlines and Process
+## Project Requirements
 
-### Q: When are the plagiarism test results released?
+#### Q: For the RBAC, do I need to use Flask-Security, or can I implement custom logic?
 
-A: The results are typically released within a few days, but it can vary depending on the queue.
+A: Using flask-security is recomended but you can implement custom user login using Flask's session object, but ensure it meets the project’s requirements.
 
-### Q: Can I enroll in the next term without penalty and with full assessment?
+#### Q: Is the use flask-restful mandatory ?
+A: flask-restful is not mandatory, however sending data through API's are mandatory. You can have your own implementation.
 
-A: You may enroll in the next term, but ensure that you adhere to any specific guidelines to avoid penalties.
+#### Q: Do I need to use Vue.js as a CDN, or is CLI mandatory?
 
-### Q: Will I be automatically enrolled for the project in the next term, or do I need to register again?
+A: Use of Vue.js CDN as well as CLI are allowed.
 
-A: You need to register yourself again for the next term.
+#### Q: Can I use Vue.js 3 ?
 
-### Q: Can invalid submissions be resubmitted?
+A: Yes, both Vue.js 2 as well as Vue.js 3 are allowed.
 
-A: Resubmission policies may vary, but typically invalid submissions are given a chance for correction.
+#### Q: Is it mandatory to use ChartJS, or can I use Matplotlib for plotting?
 
-### Q: I accidentally submitted the wrong file. Can I resubmit?
+A: You can you use any charting library for showing visual data.
 
-A: Resubmission after the deadline might not be allowed, but contact support for exceptions.
-
-### Q: I am getting a message that I am not eligible for project submission. What should I do?
-
-A: If you see this message, contact support to verify your eligibility and resolve the issue.
-
----
-
-## Zipping and File Submission
-
-### Q: What should be the format for the submission ZIP file?
-
-A: The ZIP file should include all relevant project files, excluding unnecessary folders like `node_modules`, `.venv`, and `.git`.
-
-### Q: How can I zip my project folder programmatically?
-
-A: You can use tools like `7z` or `gzip` from the terminal. Install `7z` with `sudo apt install p7zip-full`.
-
-### Q: How do I reduce the file size for submission?
-
-A: Remove unnecessary files and folders like `node_modules`, `.venv`, and large static files. Consider compressing images or splitting files.
-
-### Q: I am unable to submit my project due to exceeding file size limits. What can I do?
-
-A: Try reducing the file size by removing non-essential files and folders or splitting the submission into multiple parts if allowed.
-
----
-
-## Validation and Eligibility
-
-### Q: My validation passed, can I submit my project?
-
-A: If validation has passed, you should be able to submit. If not, ensure all requirements are met.
-
-### Q: What does a checksum failure mean, and how do I fix it?
-
-A: A checksum failure indicates that the file integrity check failed. Try re-compressing the file and validating again.
-
-### Q: After submitting, I received a message that I am not eligible for project submission. Is my submission valid?
-
-A: If the project shows as "submitted," your submission is likely valid, but verify with support to confirm.
-
----
-
-## Project Requirements and Implementation
-
-### Q: For the RBAC, do I need to use Flask-Security, or can I implement custom logic?
-
-A: You can implement custom user login logic using Flask's session object, but ensure it meets the project’s requirements.
-
-### Q: How many marks will be deducted if I fail to implement Celery tasks, and what is the weightage?
+#### Q: How many marks will be deducted if I fail to implement Celery tasks, and what is the weightage?
 
 A: The weightage for Celery jobs is significant, but failing to implement them won't fail the entire project. Marks will be deducted accordingly.
 
-### Q: Is it necessary to set up a daily mail system as shown in the live session?
+#### Q: Is it necessary to set up a daily mail system as shown in the live session?
 
-A: Implementing a daily mail system is recommended, but if not feasible, ensure core functionalities are completed.
+A: Its not mandatory to follow live sessions, as per project requirement you can either setup mail, g-chat or SMS.
 
-### Q: Is it mandatory to use ChartJS, or can I use Matplotlib for plotting?
+#### Q: Is setting up mail through Mailhog or other email testing tool accepted?
 
-A: Matplotlib can be used if it meets the project requirements, but ChartJS might be preferred for web-based visualizations.
+A: Yes, demonstration through mail testing tools are fine.
 
-### Q: Can I use third-party libraries like PrimeVue or Vue Material for UI components?
+#### Q: Can I use third-party libraries like PrimeVue or Vue Material for UI components?
 
-A: Yes, you can use third-party libraries, but ensure you understand and can explain their implementation.
+A: Yes, you can use third-party libraries, but ensure you understand and can explain their implementation in the viva.
 
-### Q: Is it necessary to use Redis and Celery, or can RabbitMQ be used instead?
+#### Q: Is it necessary to use Redis and Celery, or can RabbitMQ be used instead?
 
-A: While Redis is recommended, RabbitMQ can be used if you encounter issues with Redis.
+A: Redis and Celery are mandatory however, RabbitMQ maybe allowed if you encounter issues with Redis, get confirmation from instructors.
 
-### Q: Do I need to use Vue.js as a CDN, or is CLI mandatory?
-
-A: Vue.js can be used as a CDN, but ensure it aligns with the project guidelines.
-
-### Q: Is the ER diagram mandatory, or can relations between tables be defined in words?
+#### Q: Is the ER diagram mandatory, or can relations between tables be defined in words?
 
 A: While defining relations in words is acceptable, submitting an ER diagram is recommended.
 
-### Q: Can I use SQLAlchemy for database management?
+#### Q: Can I use SQLAlchemy for database management?
 
 A: Yes, SQLAlchemy is a commonly used ORM for Flask applications and is acceptable.
+E
+#### Q: I am unable to send emails to Gmail but can send them to Mailhog. Is this sufficient?
+
+A: Sending emails to Mailhog for testing is  accepted.
+
+#### Q: Use of Vuex mandatory?
+
+A: It's not mandatory
+
+#### Q: Can I build the project in windows?
+#### Q: Is the use of WSL mandatory?
+
+
 
 ---
 
-## Troubleshooting and Technical Issues
+## Submission 
 
-### Q: I am having trouble with validation. What should I do?
+#### Q: When are the plagiarism test results released?
+
+A: The results are typically released within a few days after the current submission window ends, but it can vary depending on the queue.
+
+#### Q: Can I enroll in the next term without penalty and with full assessment?
+
+A: Yes you can enroll in the next term.
+
+#### Q: Will I be automatically enrolled for the project in the next term, or do I need to register again?
+
+A: 
+
+#### Q: Can invalid submissions be resubmitted?
+
+A: Make sure to only submit when you are sure of the project, incase of invalid submission contact the course instructors.
+
+#### Q: I accidentally submitted the wrong file. Can I resubmit?
+
+A: Resubmission after the deadline will not be allowed.
+
+#### Q: I am getting a message that I am not eligible for project submission after submitting the project. What should I do?
+
+A: This is the normal behavior of the submission portal, we have received you project.
+
+---
+
+## Zipping File
+
+
+#### Q: I am unable to submit my project due to exceeding file size limits. What can I do?
+
+A: Try reducing the file size by removing non-essential files and folders. Check for hidden files as well.
+
+#### Q: How do I reduce the file size for submission?
+
+A: Remove unnecessary files and folders like `node_modules`, `.venv`, `.git`, and large static files. Consider compressing images. Incase database is very large, it can also be deleted, you can add it in viva.
+
+#### Q: I'm using Mac OS for zipping and its not passing validation.
+
+A: It's hit or miss with MacOS zipping process, try to zip programmatically or upload your folder to google drive and download a zipped version from google drive.
+
+#### Q: How can I zip my project folder programmatically?
+
+A: You can use tools like `7z` or `gzip` from the terminal. You can google how to install and use them for your particular operating system.
+
+#### Q: What should be the format for the submission ZIP file?
+
+A: One `root` folder, inside the root folder only `report.pdf` and `code` folder should be present. You can keep all you frontend, backend and other folders inside `code`. 
+
+
+
+---
+
+## Validation 
+
+#### Q: My validation passed, can I submit my project?
+
+A: If validation has passed, you can submit.
+
+#### Q: What does a checksum failure mean, and how do I fix it?
+
+A: A checksum failure indicates that code has been changed since you submitted your project. In such case you can download your project from the portal in presence of viva examiner and run your application.
+
+#### Q: After submitting, I received a message that I am not eligible for project submission. Is my submission valid?
+
+A: This is normal, we have received your project.
+
+#### Q: I am having trouble with validation. What should I do?
 
 A: Ensure all files are correctly formatted, and all guidelines are followed. If issues persist, contact support.
 
-### Q: My Redis server was working, but now it shows a connection error. What should I do?
+---
+
+
+## Technical Issues
+
+
+#### Q: Redis shows a connection error. What should I do?
 
 A: Check that the Redis service is running and correctly configured. If issues persist, try restarting the service.
 
-### Q: I am unable to send emails to Gmail but can send them to Mailhog. Is this sufficient?
 
-A: Sending emails to Mailhog for testing is generally acceptable, but verify if Gmail functionality is required.
-
-### Q: My project report is based on a previous submission. Will it be flagged for plagiarism?
+#### Q: My project report is based on a previous submission. Will it be flagged for plagiarism?
 
 A: If the content is largely reused, it may be flagged. Ensure you make significant updates to avoid this.
 
@@ -130,18 +160,18 @@ A: If the content is largely reused, it may be flagged. Ensure you make signific
 
 ## Miscellaneous
 
-### Q: How do I view my marks/grades after passing the level?
+#### Q: How do I view my marks/grades after passing the level?
 
 A: Check the results tab, usually located at the top right of the portal.
 
-### Q: What is the expected content of the submission video?
+#### Q: What is the expected content of the submission video?
 
 A: Provide a walkthrough of your app, explaining key features and implementation. The video should be concise and within the time limit.
 
-### Q: Should I delete the `node_modules` folder before submitting?
+#### Q: Should I delete the `node_modules` folder before submitting?
 
-A: Yes, delete the `node_modules` folder and other non-essential directories to reduce file size.
+A: Yes, delete the `node_modules` folder and other non-essential directories to reduce file size. `node_modules` can be installed with `npm install` command in the frontend root folder.
 
-### Q: Can I make small code changes after running a checksum and before the demo?
+#### Q: Can I make small code changes after running a checksum and before the demo?
 
 A: Minor changes may be allowed, but seek permission from your proctor during the viva.
