@@ -9,16 +9,16 @@ hero:
   actions:
     - theme: brand
       text: AppDev I
-      link: /appdev-I/index
+      link: /appdev-I-theory/
     - theme: brand
       text: AppDev I Project
-      link: /appdev-I-project/index
+      link: /appdev-I-project/
     - theme: alt
       text: AppDev II
-      link: /appdev-II/index
+      link: /appdev-II-theory/
     - theme: alt
       text: AppDev II Project
-      link: /appdev-II-project/index
+      link: /appdev-II-project/
 
 features:
   - title: Feature A
