@@ -39,12 +39,12 @@ export default defineConfig({
       ],
 
       // Sidebar for the "app dev II" section
-      '/appdev-II/': [
+      '/appdev-II-theory/': [
         {
           text: 'Reference',
           items: [
             // { text: 'Introduction', link: '/reference/' },
-            // { text: 'CLI', link: '/reference/cli' },
+            { text: 'Javascript', link: '/appdev-II-theory/javascript' },
             // { text: 'API', link: '/reference/api' }
           ]
         }
