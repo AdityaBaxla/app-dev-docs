@@ -1,4 +1,6 @@
 <!-- .vitepress/components/OSSwitcher.vue -->
+
+<!--
 <template>
   <div class="os-switcher">
     <button :class="{ active: selectedOS === 'windows' }" @click="setOS('windows')">Windows</button>
@@ -42,3 +44,4 @@ export default {
   color: #fff;
 }
 </style>
+-->
