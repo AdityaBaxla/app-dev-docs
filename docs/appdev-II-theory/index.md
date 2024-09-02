@@ -1,12 +1,13 @@
 # Appdev II Theory
 
-This section contains all the theoretical resources for Appdev II.
+This section contains all the resources for Appdev II Theory Course.
 
 ## Topics
 
-- Advanced Flask Configuration
-- Flask Authentication
-- SQLAlchemy Advanced Models
-- Flask RESTful APIs
+- Javascript
+- Vue JS
+- Vue Router
+- Vuex
+- Redis and Celery
 
 Please refer to the detailed guides in this section for comprehensive coverage of each topic.

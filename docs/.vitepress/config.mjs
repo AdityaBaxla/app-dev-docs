@@ -45,6 +45,8 @@ export default defineConfig({
           items: [
             // { text: 'Introduction', link: '/reference/' },
             { text: 'Javascript', link: '/appdev-II-theory/javascript' },
+            { text: 'Variables', link: '/appdev-II-theory/variables' },
+            { text: 'Scoping', link: '/appdev-II-theory/scoping' },
             // { text: 'API', link: '/reference/api' }
           ]
         }
@@ -69,9 +71,11 @@ export default defineConfig({
       // Default sidebar for the root level ("/")
       '/': [
         {
-          text: 'Home',
+          text: 'Reference',
           items: [
-            { text: 'Introduction', link: '/' }
+            { text: 'AppDev I', link: '/appdev-I-index' },
+            { text: 'AppDev II', link: '/appdev-II-index' },
+           
           ]
         }
       ]
