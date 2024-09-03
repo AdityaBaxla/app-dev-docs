@@ -2,7 +2,7 @@
 
 variables are what stores data. There are multiple ways to declare variables.
 
-let, const, var and without any keyword
+variables can be declared by let, const, var and also without any keyword
 
 ```js
 let user = "John";
@@ -29,10 +29,10 @@ car = "Hyundai"; // car is reassigned
 
 ## const
 
-These variables are ment to be constants the value of which will not change late on in your code. Variables declared with const keyword are block scoped, meaning they will only be accessible inside the the block or function in which they are declared in. They **cannot** resigned to a different literal.
+These variables are meant to be constants the value of which will not change late on in your code. Variables declared with const keyword are block scoped, meaning they will only be accessible inside the the block or function in which they are declared in. They **cannot** resigned to a different literal.
 
 ```js
-let plane = "Boeing";
+const plane = "Boeing";
 plane = "Airbus"; // this will give an error
 ```
 

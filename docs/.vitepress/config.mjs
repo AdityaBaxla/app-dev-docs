@@ -17,7 +17,10 @@ export default defineConfig({
       provider: 'local'
     },
 
-    sidebar: {
+    sidebar: 
+      // General sidebar content
+     
+      {
       // Sidebar for the "appdevI" section
       '/appdev-I/': [
         {
@@ -49,6 +52,7 @@ export default defineConfig({
             // { text: 'Introduction', link: '/reference/' },
             { text: 'Javascript', link: '/appdev-II-theory/javascript' },
             { text: 'Variables', link: '/appdev-II-theory/variables' },
+            { text: 'Datatype', link: '/appdev-II-theory/datatypes' },
             { text: 'Scoping', link: '/appdev-II-theory/scoping' },
             // { text: 'API', link: '/reference/api' }
           ]
@@ -81,9 +85,8 @@ export default defineConfig({
            
           ]
         }
-      ]
-    },
-
+      ]}
+    ,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/AdityaBaxla/app-dev-docs' }
     ]
