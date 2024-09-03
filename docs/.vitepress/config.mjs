@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Application Development',
   description: 'Documentation for AppDev Projects and Theory',
+  head : [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/assets/favicon.svg' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
