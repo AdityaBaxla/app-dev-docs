@@ -50,10 +50,19 @@ export default defineConfig({
           text: 'Reference',
           items: [
             // { text: 'Introduction', link: '/reference/' },
-            { text: 'Javascript', link: '/appdev-II-theory/javascript' },
-            { text: 'Variables', link: '/appdev-II-theory/variables' },
-            { text: 'Datatype', link: '/appdev-II-theory/datatypes' },
-            { text: 'Scoping', link: '/appdev-II-theory/scoping' },
+            { text: 'Javascript', 
+              items: [
+                { text : 'Introduction', link: '/appdev-II-theory/javascript' },
+                { text: 'Variables', link: '/appdev-II-theory/variables' },
+                { text: 'Datatype', link: '/appdev-II-theory/datatypes' },
+                { text: 'Type Conversion', link: '/appdev-II-theory/typeconversion' },
+                { text: 'Scoping', link: '/appdev-II-theory/scoping' },
+                { text: 'Operators', link: '/appdev-II-theory/operators' },
+                { text: 'Functions', link: '/appdev-II-theory/functions' },
+                { text: 'Closure', link: '/appdev-II-theory/closures' },
+                { text: 'Hoisting', link: '/appdev-II-theory/hoisting' },
+                { text: 'DOM', link: '/appdev-II-theory/dom' },
+              ]},
             // { text: 'API', link: '/reference/api' }
           ]
         }

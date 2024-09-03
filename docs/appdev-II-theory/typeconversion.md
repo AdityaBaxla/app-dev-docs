@@ -1,15 +1,15 @@
 # Type Conversion
 
-Javascript for the most part automatically converts datatype to whatever seems most obvious when used in functions or operators are used on it. There are certain times this behavior is not so obvious, or we need to explicitly convert datatype for our use case.
+Javascript for the most part automatically converts datatype to whatever seems logical (to the language, but not to humans) when used in functions or operators are used on it. There are certain times this behavior is not so obvious, or we need to explicitly convert datatype for our use case.
 
 ## String Conversion
 
 Whenever we are displaying a value, it is automatically converted to string. The behavior of string conversion is predictable.
 
 ```js
-console.log(true);
-console.log(1);
-console.log(null);
+console.log(true); // Output : true
+console.log(1); // Output : 1
+console.log(null); // Output : null
 ```
 
 :::info
@@ -23,6 +23,10 @@ let num = 576;
 let str = String(num);
 console.log(typeof str); // string
 ```
+
+:::info
+`typeof` is an operator which returns the datatype of a literal / variable
+:::
 
 ## Number conversion
 

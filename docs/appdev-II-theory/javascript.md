@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Javascript was made to add some interactivity to html pages, it's still used for that but it has evolved much more than the original use case. In today's world you can make backend as well as frontend with javascript. Javascript is the most important language when it comes to making web apps.
+Javascript was made to add some interactivity to html pages, it's still used for that purpose but it has evolved much more than the original use case. In today's world you can make backend as well as frontend with javascript. Javascript is the most important language when it comes to making web apps.
 
 ::: warning
 Javascript can be very lenient with errors, be very careful when using properties. Even if a property is not defined you can access the property who's value will come as `undefined`
@@ -100,7 +100,7 @@ when a source attribute is given to script tag, any code written inside script t
 
 Javascript is considered a scripting language that means no compiling step need.
 
-It is loosly structued, there is no fixed way as in no need of main functions to run the code.
+It is loosely structured, there is no fixed way as in no need of main functions to run the code.
 
 #### Reserved Keywords
 

@@ -1,8 +1,8 @@
-## What is Scope?
+# What is Scope?
 
 Scoping determines where an item (like a variable or function) is visible or accessible in your code.
 
-How does JavaScript know which variables are accessible by any given statement? How does it handle two variables of the same name? These are the questions we'll address in this post.
+How does JavaScript know which variables are accessible by any given statement? How does it handle two variables of the same name? These are the questions we'll address in this section.
 
 ## De-Jargonize
 
@@ -12,15 +12,15 @@ Anything enclosed within curly brackets `{}` is considered a block.
 
 ```js [block-example.js]
 if (true) {
-  // This is block scoped
+  // This is block 
 }
 
 {
-  // This also is block scoped
+  // This also is block 
 }
 
 for (let i = 1; i < 10; i++) {
-  // Block scope
+  // This is block
 }
 ```
 
