@@ -1,12 +1,13 @@
 # Variables
 
-variables are what stores data. There are multiple ways to declare variables.They can be declared by let, const, var and also without any keyword.
+Variables are what stores value. There are multiple ways to declare variables.They can be declared by let, const, var and also without any keyword.
 
 ```js
 let user = "John";
 const age = 25;
 var message = "Hello";
 ```
+
 :::info
 Note the **""** around John and Hello, these are called strings, and age is given a value without any quotes which is a number. We will discuss more on the datatype in upcoming chapter.
 :::
