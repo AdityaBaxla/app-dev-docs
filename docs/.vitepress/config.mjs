@@ -48,9 +48,10 @@ export default defineConfig({
       '/appdev-II-theory/': [
         {
           text: 'Reference',
-          items: [
+                    items: [
             // { text: 'Introduction', link: '/reference/' },
             { text: 'Javascript', 
+              collapsed: false,
               items: [
                 { text : 'Introduction', link: '/appdev-II-theory/javascript' },
                 { text: 'Variables', link: '/appdev-II-theory/variables' },
@@ -69,6 +70,11 @@ export default defineConfig({
                 { text: 'Closure', link: '/appdev-II-theory/closures' },
                 { text: 'Hoisting', link: '/appdev-II-theory/hoisting' },
                 { text: 'DOM', link: '/appdev-II-theory/dom' },
+              ]},
+              { text : 'Vue JS',
+                collapsed: false,
+                items : [
+                {text : 'Introduction', link: '/appdev-II-theory/vue'}
               ]},
             // { text: 'API', link: '/reference/api' }
           ]

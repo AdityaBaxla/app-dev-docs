@@ -1,8 +1,4 @@
-Here's a comprehensive guide on variable declaration and hoisting in JavaScript, including discussions on `var`, `let`, `const`, and undeclared variables, as well as Temporal Dead Zone (TDZ) and common console errors.
-
----
-
-# Understanding Variable Declarations and Hoisting in JavaScript
+# Variable Declarations and Hoisting in JavaScript
 
 Variable declaration and hoisting are fundamental concepts in JavaScript that affect how and when variables are accessible in your code. This guide explores the behavior of `var`, `let`, `const`, and undeclared variables, with a focus on hoisting and the Temporal Dead Zone (TDZ).
 
