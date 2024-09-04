@@ -1,6 +1,6 @@
-# Datatype !!!!stuff remaining
+# Datatype
 
-Javascript datatypes can be classified into two broad categories
+Javascript datatype can be classified into two broad categories
 
 - Primitives
 - Object

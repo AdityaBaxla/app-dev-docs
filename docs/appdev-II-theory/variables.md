@@ -9,10 +9,10 @@ var message = "Hello";
 ```
 
 :::info
-Note the **""** around John and Hello, these are called strings, and age is given a value without any quotes which is a number. We will discuss more on the datatype in upcoming chapter.
+Note the **""** around John and Hello, these are called strings, and age is given a numeric value without any quotes which is a number. We will discuss more on the datatype in upcoming chapter.
 :::
 
-### variable naming
+### Variable naming
 
 There are two limitations on variable names in JavaScript:
 
@@ -21,7 +21,7 @@ There are two limitations on variable names in JavaScript:
 
 ## let
 
-variables declared with let keyword are block scoped, meaning they will only be accessible inside the the block or function in which they are declared in. They can be resigned to a different literal.
+Variables declared with let keyword are block scoped, meaning they will only be accessible inside the the block or function in which they are declared in. They can be resigned to a different literal.
 
 ```js
 let name = "Aditya";
@@ -48,7 +48,7 @@ there are many more differences between the way var and let/cost behave which we
 
 ## variable without any keyword
 
-they are always global scope, that means they will be accessible no matter where they are declared. It is discouraged to use this method of variable creation as it will pollute the global scope.
+These are always global scope, that means they will be accessible no matter where they are declared. It is discouraged to use this method of variable creation as it will pollute the global scope.
 
 ```js
 food = "pasta";

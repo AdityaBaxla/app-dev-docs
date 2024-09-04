@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Javascript was made to add some interactivity to html pages, it's still used for that purpose but it has evolved much more than the original use case. In today's world you can make backend as well as frontend with javascript. Javascript is the most important language when it comes to making web apps.
+Javascript was made to add some interactivity to html pages, it's still used for that purpose but it has evolved much more than the original use case. Today can make backend as well as frontend with javascript. Javascript is the most important language when it comes to making web apps.
 
 ::: warning
 Javascript can be very lenient with errors, be very careful when using properties. Even if a property is not defined you can access the property who's value will come as `undefined`
