@@ -1,8 +1,4 @@
-Here's a comprehensive guide on DOM functions in JavaScript, covering the most commonly used methods for interacting with and manipulating the Document Object Model (DOM).
-
----
-
-# Mastering DOM Functions in JavaScript
+# Document Object Model
 
 The Document Object Model (DOM) is a programming interface that represents the structure of a web page. JavaScript provides a variety of methods for interacting with and manipulating the DOM, enabling dynamic updates and interactions. This guide covers key DOM functions, their usage, and practical examples.
 

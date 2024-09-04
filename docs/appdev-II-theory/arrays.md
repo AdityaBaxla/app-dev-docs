@@ -1,4 +1,4 @@
-# Mastering Arrays in JavaScript
+# Arrays
 
 Arrays are a fundamental data structure in JavaScript, used to store ordered collections of elements. Understanding how to manipulate arrays using various methods is essential for efficient coding. This guide covers the creation of arrays, accessing elements, and a comprehensive list of methods available to manipulate arrays.
 
@@ -195,44 +195,6 @@ Returns the index of the first element in the array that satisfies the provided 
 ```javascript
 let foundIndex = fruits.findIndex((fruit) => fruit.startsWith("G"));
 console.log(foundIndex); // 2
-```
-
-### 19. `every()`
-
-Tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
-
-```javascript
-let allLong = fruits.every((fruit) => fruit.length > 4);
-console.log(allLong); // true
-```
-
-### 20. `some()`
-
-Tests whether at least one element in the array passes the test implemented by the provided function. It returns a Boolean value.
-
-```javascript
-let someShort = fruits.some((fruit) => fruit.length < 5);
-console.log(someShort); // false
-```
-
-### 21. `flat()`
-
-Creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
-
-```javascript
-let nestedArray = [1, [2, [3, [4]]]];
-let flatArray = nestedArray.flat(2);
-console.log(flatArray); // [1, 2, 3, [4]]
-```
-
-### 22. `flatMap()`
-
-First maps each element using a mapping function, then flattens the result into a new array. It is identical to a `map()` followed by a `flat()` of depth 1.
-
-```javascript
-let numbers = [1, 2, 3];
-let doubledNumbers = numbers.flatMap((num) => [num, num * 2]);
-console.log(doubledNumbers); // [1, 2, 2, 4, 3, 6]
 ```
 
 ## Conclusion

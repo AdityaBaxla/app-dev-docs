@@ -1,8 +1,4 @@
-Here's a revised and more structured version of your VitePress documentation:
-
----
-
-# All About Functions in JavaScript
+# All About Functions
 
 ## Ways of Declaring Functions in JavaScript
 
