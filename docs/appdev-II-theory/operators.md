@@ -123,6 +123,12 @@ console.log(1 + 2 + "3"); // 33
 console.log("1" + 2 + 3); // 123
 ```
 
+## Unary `+` Number Conversion
+
+The plus + exists in two forms: the binary form that we used above and the unary form.
+
+The unary plus or, in other words, the plus operator + applied to a single value, doesn’t do anything to numbers. But if the operand is not a number, the unary plus converts it into a number.
+
 ## `-`, `*`, `/`, `%` and `**`
 
 Things to keep in mind :
@@ -145,3 +151,9 @@ console.log("a" * 5); // NaN
 Note that an assignment = is also an operator. It is listed in the precedence table with the very low priority of 2.
 
 That’s why, when we assign a variable, like x = 2 \* 2 + 1, the calculations are done first and then the = is evaluated, storing the result in x.
+
+```js
+let a, b, c;
+
+a = b = c = 2 + 2;
+```
