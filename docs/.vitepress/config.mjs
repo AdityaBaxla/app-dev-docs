@@ -5,7 +5,7 @@ export default defineConfig({
   title: 'Application Development',
   description: 'Documentation for AppDev Projects and Theory',
   head : [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/assets/favicon.svg' }]
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: './assets/favicon.svg' }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -60,13 +60,15 @@ export default defineConfig({
                 { text: 'Comparison Operators', link: '/appdev-II-theory/comparisonoperators.md' },
                 { text: 'Logical Operators', link: '/appdev-II-theory/logicaloperators.md' },
                 { text: 'Type Conversion', link: '/appdev-II-theory/typeconversion' },
+                { text: 'String', link: '/appdev-II-theory/strings' },
                 { text: 'Loops', link: '/appdev-II-theory/loops' },
-                { text: 'Functions', link: '/appdev-II-theory/functions' },
                 { text: 'Object', link: '/appdev-II-theory/objects' },
                 { text: 'Arrays', link: '/appdev-II-theory/arrays' },
+                { text: 'Functions', link: '/appdev-II-theory/functions' },
                 { text: 'Non Values', link: '/appdev-II-theory/nonvalues' },
                 { text: 'Scoping', link: '/appdev-II-theory/scoping' },
                 { text: 'This', link: '/appdev-II-theory/this' },
+                { text: 'Call Bind Apply', link: '/appdev-II-theory/callbindapply' },
                 { text: 'Closure', link: '/appdev-II-theory/closures' },
                 { text: 'Hoisting', link: '/appdev-II-theory/hoisting' },
                 { text: 'DOM', link: '/appdev-II-theory/dom' },

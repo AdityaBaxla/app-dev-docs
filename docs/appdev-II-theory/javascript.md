@@ -29,7 +29,7 @@ On the server or computer the most common javascript runtime is Node.js, which i
 - Simple and fast to learn.
 - Supported by all major browsers.
 
-For this course we would specify where if the javascript code is running on the browser or node.js. There are some differences between the two runtime. We will mention it whenever we come across these differences. As of now you just need to know they are two of the major ways js runs.
+For this course we would specify where the javascript code is running, either on the browser or node.js. There are some differences between the two runtime. We will mention it whenever we come across these differences. As of now you just need to know they are two of the major ways js runs.
 
 ## Getting Started
 
@@ -46,11 +46,11 @@ alert("my first js code");
 
 This particular console window is very useful to write and test small snippets of code, but you can't save it and of course its not where you can develop large applications.
 
-### Running javascript in html file
+## Javascript in html file
 
-If you like to save your code, you need to write it in a file. Lets create a `index.html` file and write code in it.
+If you like to save your code, you need to write it in a file. Lets create a `index.html` file and write code in it. Javascript code can be written inside the `<script> </script>` tag in html.
 
-```html
+```html {4-7}
 <html>
   <head></head>
   <body>
@@ -62,13 +62,17 @@ If you like to save your code, you need to write it in a file. Lets create a `in
 </html>
 ```
 
-you can open this `index.html` file in a browser and open up the console to view the execution of this code. However this approach has a problem, every time you change the code you need to refresh the page to see this change in code.
+You can open this `index.html` file in a browser and open up the console to view the execution of this code. However this approach has a problem, every time you change the code you need to refresh the page to see this change in code.
 
 :::info
-Usually, when we put a line of code into the console, and then press Enter, it executes. To insert multiple lines, press Shift+Enter. This way one can enter long fragments of JavaScript code.
+`console.log` is like `print` function in python.
 :::
 
-### Running javascript in external .js file
+:::tip
+Usually, when we put a line of code into the console, and then press Enter, it executes. To insert multiple lines, press Shift+Enter. This way one can enter multiple lines of JavaScript code.
+:::
+
+## Javascript in external .js file
 
 When the code becomes larger we like to separate it different file. This is where external javascript file comes to save us.
 
@@ -96,25 +100,25 @@ you can add multiple different javascript file this way. Try it out !
 when a source attribute is given to script tag, any code written inside script tag is ignored
 :::
 
-### Fundamentals
+## Fundamentals
 
 Javascript is considered a scripting language that means no compiling step need.
 
 It is loosely structured, there is no fixed way as in no need of main functions to run the code.
 
-#### Reserved Keywords
+### Reserved Keywords
 
 There are few keywords that are reserved for language purpose so you can use it to name variables and functions.
 few keywords include enum, public, undefined, implements etc. You don't need to remember these keywords, you'll get used to the important ones as you keep coding in javascript.
 
-#### Literals
+### Literals
 
 literals are values that can be assigned to variables. The value `1` is a literal and so is `"MAD - 2"`
 
-#### Statement
+### Statement
 
 A piece of code that can be executed
 
-#### Expression
+### Expression
 
 code when executed returns a value
