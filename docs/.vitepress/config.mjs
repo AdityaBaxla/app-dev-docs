@@ -1,5 +1,9 @@
 import { defineConfig } from 'vitepress'
 
+
+const JS_PREFIX = "/appdev-II-theory/javascript"
+const VUE_PREFIX = "/appdev-II-theory/vue"
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'Application Development',
@@ -49,35 +53,58 @@ export default defineConfig({
         {
           text: 'Reference',
                     items: [
-            // { text: 'Introduction', link: '/reference/' },
+            { text: 'Week 1 - 4'},
             { text: 'Javascript', 
               collapsed: false,
               items: [
-                { text : 'Introduction', link: '/appdev-II-theory/javascript' },
-                { text: 'Variables', link: '/appdev-II-theory/variables' },
-                { text: 'Datatype', link: '/appdev-II-theory/datatypes' },
-                { text: 'Math Operators', link: '/appdev-II-theory/operators' },
-                { text: 'Comparison Operators', link: '/appdev-II-theory/comparisonoperators.md' },
-                { text: 'Logical Operators', link: '/appdev-II-theory/logicaloperators.md' },
-                { text: 'Type Conversion', link: '/appdev-II-theory/typeconversion' },
-                { text: 'String', link: '/appdev-II-theory/strings' },
-                { text: 'Loops', link: '/appdev-II-theory/loops' },
-                { text: 'Object', link: '/appdev-II-theory/objects' },
-                { text: 'Arrays', link: '/appdev-II-theory/arrays' },
-                { text: 'Functions', link: '/appdev-II-theory/functions' },
-                { text: 'Non Values', link: '/appdev-II-theory/nonvalues' },
-                { text: 'Scoping', link: '/appdev-II-theory/scoping' },
-                { text: 'This', link: '/appdev-II-theory/this' },
-                { text: 'Call Bind Apply', link: '/appdev-II-theory/callbindapply' },
-                { text: 'Closure', link: '/appdev-II-theory/closures' },
-                { text: 'Hoisting', link: '/appdev-II-theory/hoisting' },
-                { text: 'DOM', link: '/appdev-II-theory/dom' },
+                { text: 'Introduction', link: `${JS_PREFIX}/javascript` },
+                { text: 'Variables', link: `${JS_PREFIX}/variables` },
+                { text: 'Datatype', link: `${JS_PREFIX}/datatypes` },
+                { text: 'Math Operators', link: `${JS_PREFIX}/operators` },
+                { text: 'Comparison Operators', link: `${JS_PREFIX}/comparisonoperators.md` },
+                { text: 'Logical Operators', link: `${JS_PREFIX}/logicaloperators.md` },
+                { text: 'Type Conversion', link: `${JS_PREFIX}/typeconversion` },
+                { text: 'String', link: `${JS_PREFIX}/strings` },
+                { text: 'Loops', link: `${JS_PREFIX}/loops` },
+                { text: 'Object', link: `${JS_PREFIX}/objects` },
+                { text: 'Arrays', link: `${JS_PREFIX}/arrays` },
+                { text: 'Functions', link: `${JS_PREFIX}/functions` },
+                { text: 'Non Values', link: `${JS_PREFIX}/nonvalues` },
+                { text: 'Scoping', link: `${JS_PREFIX}/scoping` },
+                { text: 'This', link: `${JS_PREFIX}/this` },
+                { text: 'Call Bind Apply', link: `${JS_PREFIX}/callbindapply` },
+                { text: 'Closure', link: `${JS_PREFIX}/closures` },
+                { text: 'Hoisting', link: `${JS_PREFIX}/hoisting` },
+                { text: 'DOM', link: `${JS_PREFIX}/dom` },
               ]},
               { text : 'Vue JS',
                 collapsed: false,
                 items : [
-                {text : 'Introduction', link: '/appdev-II-theory/vue'}
+                {text : 'Introduction', link: `${VUE_PREFIX}/vue`}
               ]},
+              { text: 'Week 5 - 8'},
+              { text : 'Advanced Javascript',
+                collapsed: false,
+                items : [
+                {text : 'Promises', link: '/appdev-II-theory/placeholder'},
+                {text : 'Async Await', link: '/appdev-II-theory/placeholder'},
+                {text : 'Browser Storage', link: '/appdev-II-theory/vue'},
+              ]},
+              { text : 'Vue Router',
+                collapsed: false,
+                items : [
+                {text : 'Promises', link: '/appdev-II-theory/placeholder'},
+                {text : 'Async Await', link: '/appdev-II-theory/placeholder'},
+                {text : 'Browser Storage', link: '/appdev-II-theory/placeholder'},
+              ]},
+              { text : 'Vuex',
+                collapsed: false,
+                items : [
+                {text : 'Promises', link: '/appdev-II-theory/placeholder'},
+                {text : 'Async Await', link: '/appdev-II-theory/placeholder'},
+                {text : 'Browser Storage', link: '/appdev-II-theory/placeholder'},
+              ]},
+              { text: 'Week 9 - 12'},
             // { text: 'API', link: '/reference/api' }
           ]
         }
