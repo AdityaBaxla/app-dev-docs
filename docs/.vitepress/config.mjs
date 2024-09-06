@@ -14,7 +14,11 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Appdev I', link: '/appdev-I-index' },
+      { text: 'Appdev I', link: '/appdev-I-index', items : [ 
+        {text: 'Appdev I Theory', link: '/appdev-II-theory'},
+        {text: 'Appdev I Project',link: '/appdev-II-project'},
+
+      ] },
       { text: 'Appdev II', link: '/appdev-II-index' }
     ],
     search: {
@@ -60,6 +64,7 @@ export default defineConfig({
                 { text: 'Introduction', link: `${JS_PREFIX}/javascript` },
                 { text: 'Variables', link: `${JS_PREFIX}/variables` },
                 { text: 'Datatype', link: `${JS_PREFIX}/datatypes` },
+                { text: 'Conditional', link: `${JS_PREFIX}/conditionals` },
                 { text: 'Math Operators', link: `${JS_PREFIX}/operators` },
                 { text: 'Comparison Operators', link: `${JS_PREFIX}/comparisonoperators.md` },
                 { text: 'Logical Operators', link: `${JS_PREFIX}/logicaloperators.md` },
@@ -132,7 +137,10 @@ export default defineConfig({
           text: 'Reference',
           items: [
             { text: 'AppDev I', link: '/appdev-I-index' },
-            { text: 'AppDev II', link: '/appdev-II-index' },
+            { text: 'AppDev II', link: '/appdev-II-index',items : [ 
+              {text: 'AppDev II Theory', link: '/appdev-II-theory'},
+              {text: 'AppDev II Project',link: '/appdev-II-project'},
+            ]}
            
           ]
         }

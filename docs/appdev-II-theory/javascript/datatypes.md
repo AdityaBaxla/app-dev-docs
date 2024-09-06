@@ -1,5 +1,7 @@
 # Datatype
 
+Data type refers to the type of value a variable has and what type of mathematical, relational or logical operations can be applied
+
 Javascript datatype can be classified into two broad categories
 
 - Primitives

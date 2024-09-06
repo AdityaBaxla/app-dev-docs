@@ -5,7 +5,7 @@
 Javascript was made to add some interactivity to html pages, it's still used for that purpose but it has evolved much more than the original use case. Today can make backend as well as frontend with javascript. Javascript is the most important language when it comes to making web apps.
 
 ::: warning
-Javascript can be very lenient with errors, be very careful when using properties. Even if a property is not defined you can access the property who's value will come as `undefined`
+Javascript can be very lenient with errors, be very careful. Some of the times you thing should throw an error would actually lead to `undefined`, `null` or `NaN` which we will cover later.
 :::
 
 <!-- ::: details
@@ -98,6 +98,10 @@ you can add multiple different javascript file this way. Try it out !
 
 ::: warning
 when a source attribute is given to script tag, any code written inside script tag is ignored
+:::
+
+:::tip 
+Node.js can also be used to directly run .js files without the need of html. You can try it out in the setup section.
 :::
 
 ## Fundamentals
