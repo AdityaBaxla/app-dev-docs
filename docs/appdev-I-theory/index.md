@@ -11,3 +11,6 @@ This section contains all the theoretical resources for Appdev I.
 - Flask SQLAlchemy
 
 Please refer to the detailed guides in this section for comprehensive coverage of each topic.
+
+
+contributed by mad1 ta darshan
